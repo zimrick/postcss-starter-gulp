@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Richard Zimerman <richard@zcreativelabs.com> (https://github.com/zimrick)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "6.7.7",
+    "gulp": "3.9.1",
+    "gulp-postcss": "6.4.0",
+    "postcss-cssnext": "2.10.0",
+    "postcss-partial-import": "3.1.1"
+  }
 }
