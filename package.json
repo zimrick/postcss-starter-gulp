@@ -4,6 +4,8 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
+    "css:watch": "gulp",
+    "css:build": "gulp css:build", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Richard Zimerman <richard@zcreativelabs.com> (https://github.com/zimrick)",
