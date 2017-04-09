@@ -1,10 +1,10 @@
 
 .blue-container {
-  background: "#2196F3";
+  background: #2196F3;
 }
 
 @media (min-width: 62em) {
   .blue-container {
-    background: "#E91E63";
+    background: #E91E63;
   }
 }
