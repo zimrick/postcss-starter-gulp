@@ -1,0 +1,17 @@
+
+:root {
+  --color-blue: "#2196F3";
+  --color-pink: "#E91E63";
+}
+
+@custom-media --md-viewport (min-width: 62em);
+
+.blue-container {
+  background: var(--color-blue);
+}
+
+@media (--md-viewport) {
+  .blue-container {
+    background: var(--color-pink);
+  }
+}
